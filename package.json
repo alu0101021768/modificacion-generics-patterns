@@ -1,0 +1,36 @@
+{
+  "name": "mod-generics-and-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "start": "tsc-watch --onSuccess \"node dist/file.js\"",
+    "doc": "typedoc; touch ./docs/.nojekyll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0101021768/modificacion-generics-patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0101021768/modificacion-generics-patterns/issues"
+  },
+  "homepage": "https://github.com/alu0101021768/modificacion-generics-patterns#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^8.2.2",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.23.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9",
+    "typedoc": "^0.20.35"
+  }
+}
